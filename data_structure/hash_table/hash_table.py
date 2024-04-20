@@ -11,7 +11,7 @@ class HashTable:
     
     def set(self,key,value):
         location =  self._hash(key)
-        if not self.data[location]:
+        if not self.data[location]: 
             self.data[location] = []
         
         self.data[location].append([key,value])
