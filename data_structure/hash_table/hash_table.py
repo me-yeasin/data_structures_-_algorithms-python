@@ -1,3 +1,7 @@
+import linked_list.sinlgy_linked_link.linked_list as l
+
+
+
 class HashTable: 
     def __init__(self,size) -> None:
         self.data = [None] * size
@@ -11,7 +15,7 @@ class HashTable:
     
     def set(self,key,value):
         location =  self._hash(key)
-        if not self.data[location]: 
+        if not self.data[location]:
             self.data[location] = []
         
         self.data[location].append([key,value])

@@ -96,10 +96,10 @@ class LinkedList:
         self.head = first_node
         return self
 
-myLinkList = LinkedList(1)
-myLinkList.append(2)
-myLinkList.append(3)
-myLinkList.append(4)
-myLinkList.append(5)
-myLinkList.reverse_list()
-print(myLinkList)
+# myLinkList = LinkedList(1)
+# myLinkList.append(2)
+# myLinkList.append(3)
+# myLinkList.append(4)
+# myLinkList.append(5)
+# myLinkList.reverse_list()
+# print(myLinkList)
